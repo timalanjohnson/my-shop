@@ -1,0 +1,30 @@
+xf_10-24mm,Fujinon XF 10-24mm Lense,1000,23,1250
+xf_16-55mm,Fujinon XF 16-55mm Lense,1400,3,1650
+xf_16mm,Fujinon XF 16mm f/2.8 Lense,700,26,1250
+xf_16mm_fast,Fujinon XF 16mm f/1.4 Lense,3000,11,3250
+xf_18-135mm,Fujinon XF 18-135mm Lense,1600,26,1950
+xf_23mm,Fujinon XF 23mm f/2 Lense,1040,33,1250
+xf_35mm,Fujinon XF 35mm f/2 Lense,1200,7,1350
+xf_35mm_fast,Fujinon XF 35mm f/1.4 Lense,1350,38,1650
+xf_50-140mm,Fujinon XF 50-140mm Lense,500,9,1250
+xf_50mm,Fujinon XF 50mm Lense,1300,23,1750
+xf_56mm,Fujinon XF 56mm Lense,700,25,1050
+xf_60mm,Fujinon XF 60mm Lense,2000,13,2550
+xf_80mm,Fujinon XF 80mm Lense,800,7,1250
+xf_90mm,Fujinon XF 90mm Lense,450,18,650
+xf_100-400mm,Fujinon XF 100-400mm Lense,1500,23,1950
+xf_10-24mm,Fujinon XF 10-24mm Lense (pre-owned),1000,23,1200
+xf_16-55mm,Fujinon XF 16-55mm Lense (pre-owned),1400,3,1600
+xf_16mm,Fujinon XF 16mm f/2.8 Lense (pre-owned),700,26,1200
+xf_16mm_fast,Fujinon XF 16mm f/1.4 Lense (pre-owned),3000,11,3200
+xf_18-135mm,Fujinon XF 18-135mm Lense (pre-owned),1600,26,1900
+xf_23mm,Fujinon XF 23mm f/2 Lense (pre-owned),1040,33,1200
+xf_35mm,Fujinon XF 35mm f/2 Lense (pre-owned),1200,7,1300
+xf_35mm_fast,Fujinon XF 35mm f/1.4 Lense (pre-owned),1350,38,1600
+xf_50-140mm,Fujinon XF 50-140mm Lense (pre-owned),500,9,1200
+xf_50mm,Fujinon XF 50mm Lense (pre-owned),1300,23,1700
+xf_56mm,Fujinon XF 56mm Lense (pre-owned),700,25,1000
+xf_60mm,Fujinon XF 60mm Lense (pre-owned),2000,13,2500
+xf_80mm,Fujinon XF 80mm Lense (pre-owned),800,7,1200
+xf_90mm,Fujinon XF 90mm Lense (pre-owned),450,18,600
+xf_100-400mm,Fujinon XF 100-400mm Lense (pre-owned),1500,23,1900
