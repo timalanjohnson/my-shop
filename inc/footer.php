@@ -8,8 +8,8 @@
 ?>
 	</main> <!-- .container -->
 
-	<footer>
-		<p class="container right">17002289 © 2019</p>
+	<footer class="container">
+		<p class="right">17002289 © 2019</p>
 	</footer>
 
 	<!-- Scripts -->

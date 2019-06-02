@@ -25,8 +25,17 @@
 </head>
 <body>
 	<header>
-		<h1 class="logo-title">My Shop</h1>
-		<p>The finest selection of Fujinon X mount lenses for Fujifilm mirrorless cameras. </p>
+		<section class="site-info">
+			<h1 class="logo-title">My Shop</h1>
+			<p>The finest selection of Fujinon X mount lenses for Fujifilm mirrorless cameras. </p>
+		</section>
+		<section class="site-nav">
+			<nav>
+				<a href="#" class="btn btn-outline-info">Shop</a>
+				<a href="#cart" class="btn btn-outline-info">Show Cart</a>
+				<a href="#" class="btn btn-outline-info">Admin Login</a>
+			</nav>
+		</section>
 	</header>
 
 	<main class="container">
