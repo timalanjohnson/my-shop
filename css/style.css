@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
-
 * {
 	box-sizing: border-box;
 }
@@ -26,192 +25,38 @@ a:hover {
 	color: #14a7cc;
 }
 
-table {
-	border-collapse: collapse;
-	width: 100%;
-}
-
-table img {
-	width: 72px;
-}
-
-th {
-	border-bottom: 1px solid #333;
-	text-align: left;
-	padding-left: 16px;
-}
-
-td {
-	border-bottom: 1px solid #333;
-	padding: 8px 16px;
-	margin: 0;
-}
-
-#page {
-	position: relative;
-	min-height: 100vh;
-}
-
 header {
-	background: #eee;
-	text-align: left;
-	height: 72px;
-	display: grid;
-	align-items: center;
-}
-.logo {
-	font-weight: 700;
-	border: 3px solid #333;
-	padding: 4px 12px;
-	color: #333;
-	text-decoration: none;
-	transition: 0.2s;
-	margin-right: 32px;
-}
-
-.logo:hover {
-	background: #333;
-	color: #eee;
-}
-
-
-nav {
-	display: flex;
-	margin: 0 16px;
-	flex-direction: row;
-}
-
-nav > * {
-	margin-right: 32px;
-	line-height: 2em;
-}
-
-.logout {
-	margin-left: auto;
-}
-
-main {
-	max-width: 720px;
-	margin: auto;
-	padding: 16px 16px 72px 16px;
-}
-
-.message {
-	background: #eee;
-	padding: 8px 16px;
-	border-radius: 8px;
-}
-
-form,
-label,
-input {
-	width: 100%;
-}
-
-label {
-	color: #777;
-}
-
-input, button {
-	transition: 0.2s;
-	padding: 12px 8px;
-	font-size: 1rem;
-	border-radius: 8px;
-	margin: 4px 0 20px 0;
-	border: 2px solid #eee;
-}
-
-input:active,
-input:focus {
-	border-radius: 8px;
-	border: 2px solid #18dcff;
-}
-
-button{
-	border: none;
-	width: 100%;
-	cursor: pointer;
-	background: #18dcff;
-}
-
-button:hover {
-	background: #17c0eb;
-}
-
-button a {
-	color: #000;
-	text-decoration: none;
-}
-
-.add-to-cart {
-	margin-top: 16px;
-}
-
-#forgotPassword {
 	text-align: center;
+	padding: 1em;
 }
 
 footer {
-	position: absolute;
-	display: grid;
-	bottom: 0;
-	width: 100%;
-	height: 72px;
-	background: #eee;
+	padding: 1em;
+	color: #777;
+}
+
+.right {
 	text-align: right;
-	align-items: center;
 }
 
-.footer-info {
-	margin: 0 16px;
+.hidden {
+	display: none;
 }
 
-/* Spinner sourced from https://loading.io/css/ */
-.spinner {
-  margin: 100px auto;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  text-align: center;
-  
-  -webkit-animation: sk-rotate 2.0s infinite linear;
-  animation: sk-rotate 2.0s infinite linear;
+td {
+	line-height: 72px;
 }
 
-.dot1, .dot2 {
-  width: 60%;
-  height: 60%;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  background-color: #333;
-  border-radius: 100%;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
+.add-to-cart {
+	margin-top: -8px;
 }
 
-.dot2 {
-  top: auto;
-  bottom: 0;
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+.quantity-input {
+	margin-top: 12px;
 }
 
-@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
-@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
+.table-thumbnail {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
 }
