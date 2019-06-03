@@ -32,6 +32,11 @@ header {
 	padding: 1em;
 }
 
+.secondary {
+	color: #777 !important;
+	font-style: italic;
+}
+
 .site-info {
 	grid-column: 1 / 2;
 }
@@ -77,17 +82,79 @@ td {
 	object-fit: cover;
 }
 
-.shop {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
 .items {
-
+	margin: 2em 0;
 }
 
 .cart {
-	padding: 2em;
+	padding: 1em 1em 0 1em;
 	background: #f2f2f2;
 	border-radius: 16px;
+	margin: 1em 0;
+}
+
+.login-form {
+	width: 800px;
+	margin: auto;
+}
+
+.spacer {
+	display: block;
+	width: 100%;
+	height: 10px;
+}
+
+#forgotPassword {
+	text-align: center;
+}
+
+
+/* Spinner sourced from https://loading.io/css/ */
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
 }

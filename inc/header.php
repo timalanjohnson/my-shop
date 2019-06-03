@@ -31,9 +31,11 @@
 		</section>
 		<section class="site-nav">
 			<nav>
-				<a href="#" class="btn btn-outline-info">Shop</a>
+				<a href="startup.php" class="btn btn-outline-info">Startup</a>
+				<a href="admin.php" class="btn btn-outline-info">Admin</a>
+				<a href="myShop.php" class="btn btn-outline-info">Shop</a>
 				<a href="#cart" class="btn btn-outline-info">Show Cart</a>
-				<a href="#" class="btn btn-outline-info">Admin Login</a>
+				<a href="logout.php" class="btn btn-outline-danger">Logout</a>
 			</nav>
 		</section>
 	</header>

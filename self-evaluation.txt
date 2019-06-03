@@ -1,0 +1,19 @@
+Timothy Johnson
+17002289
+WEDE6011
+
+Self-Evaluation
+
+This has been a surprisingly challenging subject for me. There were ups and downs over the course of the semester while doing this module, but I am pleased to say the I have learned a lot about web development, especially server-side programming with php.
+
+I shall start with my accomplishments. 
+•	I learned about server-side programming with php
+•	I learned how to build web applications using MySQL databases.
+•	Honed my front-end development skills with HTML and CSS.
+
+There were some areas with which I struggled.
+•	I underestimated how long certain tasks would take to achieve. This has haunted my many times in my life.
+•	Sometimes, I struggled to fully understand what was required of me. I shall have to work harder in the future to improve in this area.
+
+
+On the balance of things, I would say I slightly under-achieved. I know I am capable of better. However, I will take this as a learning experience and work harder in my future academic and professional careers.
